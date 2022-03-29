@@ -1,0 +1,23 @@
+name: "BRaVa"
+output_dir: "../docs"
+navbar:
+  title: '<div><img src="BRaVa_logo.svg" style="width:20px;height:20px;"/> BRaVa: Biobank Rare Variant Analysis</div>'
+  left:
+    - text: "About us"
+      href: about_us.html
+    - text: "Governing Principles"
+      href: governing_principles.html
+    - text: "Participating Biobanks and People"
+      href: people.html
+    - text: "Working Groups"
+      href: working_groups.html
+    - text: "Events"
+      href: events.html
+  right:
+    - icon: fa-github
+      href: https://github.com/astheeggeggs/BRaVa
+    - icon: fa-twitter
+      href: https://twitter.com/BRaVa_genetics
+output:
+  html_document:
+    self_contained: true

@@ -1,0 +1,32 @@
+---
+title: 'Governing Principles'
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    css: "my-style.css"
+---
+At the outset of the collaboration, we established __seven key governing principles__ for our collaborative endevour.
+
+<br>
+
+<div class="well">
+<font size="4">
+
+* Collaborate in an environment of honesty, fairness and trust.
+* Promote early-career researchers.
+* Respect other groups’ data.
+* Operate transparently with a goal of no surprises.
+* Seek permission from each group to use results prior to public release.
+* Do not share another group’s results with other parties without permission.
+* We should not inhibit any work being done within an individual group (or between pairs of groups, etc).
+
+</font>
+</div>
+<br>
+
+<center>
+```{r logo, echo=FALSE, out.width = '50%'}
+knitr::include_graphics("BRaVa_logo.svg")
+```
+</center>

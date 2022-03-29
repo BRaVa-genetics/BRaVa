@@ -1,0 +1,37 @@
+---
+title: '<div>BRaVa: <b>B</b>iobank <b>Ra</b>re <b>Va</b>riant Analysis</div>'
+pagetitle: 'BRaVa: Biobank Rare Variant Analysis'
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    css: "my-style.css"
+---
+
+<br>
+<center>
+```{r logo, echo=FALSE, out.width = '80%'}
+knitr::include_graphics("BRaVa.svg")
+```
+</center>
+
+<br>
+<br>
+
+
+<div class="well">
+
+#### Formed in February 2022, The __Biobank Rare Variant Analysis (BRaVa) consortium__ is a collaborative effort between __14 biobanks and cohorts__ from across the globe.
+<br>
+
+<div style="text-align: center;">
+<a href="https://brava-genetics.github.io/BRaVa/about_us.html" class="btn btn-primary btn-lg">About us</a>
+<a href="https://brava-genetics.github.io/BRaVa/people.html"  class="btn btn-primary btn-lg">Biobanks</a>
+<a href="https://brava-genetics.github.io/BRaVa/events.html"  class="btn btn-primary btn-lg">Events</a>
+</div>
+
+</div>
+<br>
+<center>
+### __To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com)!__
+</center>

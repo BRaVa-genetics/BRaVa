@@ -1,0 +1,100 @@
+---
+title: 'Working Groups'
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    css: "my-style.css"
+---
+
+<div class="well">
+<center>
+```{r logo, echo=FALSE, out.width = '110%'}
+knitr::include_graphics("teams.svg")
+```
+</center>
+<br>
+
+#### Organising committee
+
+Nic Timpson, 
+Ron Do, 
+Judy Cho, 
+Iona Millwood, 
+Chris Gignoux, 
+Unnur þorsteinsdóttir, 
+Lili Milani, 
+David van Heel, 
+Hilary Martin, 
+Loukas Moutsianas, 
+Pradeep Natarajan, 
+David Hunter, 
+Cecilia Lindgren, 
+Ben Neale, 
+Mette Nyegaard, 
+Thomas Folkmann Hansen, 
+Henriette Svarre.
+
+#### Phenotype characterisation team
+Kate Northstone, 
+Judy Cho, 
+Ron Do, 
+Iona Millwood, 
+Zammy Fairhurst-Hunter, 
+Chris Gignoux, 
+Nick Rafaels, 
+Lili Milani, 
+David van Heel, 
+Sarah Finer, 
+Satoshi Koyama, 
+Kaavya Paruchuri, 
+Thomas Gilliland, 
+Mette Nyegaard, 
+Thomas Folkmann Hansen, 
+Henriette Svarre.
+
+#### Analysis team
+
+Ron Do, 
+Eimear Kenny, 
+Zammy Fairhurst-Hunter, 
+Alfred Pozarickij, 
+Chris Gignoux, 
+Jonathan Shortt, 
+Sameer Chavan, 
+Unnur þorsteinsdóttir, 
+Reedik Mägi, 
+Qinqin Huang, 
+Hilary Martin, 
+David van Heel, 
+Thanos Kousathanas, 
+Zhi Yu, 
+Buu Truong, 
+Satoshi Koyama, 
+Gina Peloso, 
+Margaret Selvaraj, 
+Jason Torres , 
+Jennifer Collister, 
+Duncan Palmer, 
+Palle Rohde, 
+Lisette Kogelman.
+
+#### Methods team
+
+Ron Do, 
+Eimear Kenny, 
+Chris Gignoux, 
+Meng Lin, 
+Reedik Mägi, 
+Margaret Selvaraj, 
+Zhi Yu, 
+Satoshi Koyama, 
+Gina Peloso, 
+Buu Truong, 
+Duncan Palmer, 
+Palle Rohde, 
+Lisette Kogelman, 
+Thomas Folkmann Hansen, 
+Tanya Techlo.
+
+</div>

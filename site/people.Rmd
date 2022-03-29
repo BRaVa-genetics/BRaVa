@@ -1,0 +1,62 @@
+---
+title: 'Participating Biobanks'
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    css: "my-style.css"
+---
+
+BRaVa has 14 biobanks/cohorts to date! 
+
+__To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com).__
+
+It takes a village, or, a small city! Here are the lead PIs, analysts, bioinformaticians, computational biologists, and clinicians involved in accessing and analysing each biobank/cohort.
+
+<br>
+
+<div class="well">
+
+#### [The Avon Longitudial Study of Parents and Children (ALSPAC)](http://www.bristol.ac.uk/alspac/)
+Nic Timpson, Kate Northstone
+
+#### [BioMe](https://icahn.mssm.edu/research/ipm/programs/biome-biobank)
+Ron Do, Judy Cho, Eimear Kenny, Ernest Turro, Yuval Itan, Ruth Loos.
+
+#### [China Kadoorie Biobank (CKB)](https://www.ckbiobank.org/site/)
+Zhengming Chen, Liming Li, Iona Millwood, Zammy Fairhurst-Hunter, Alfred Pozarickij, Kuang Lin, Michael Holmes, Robert Clarke, Robin Walters.
+
+#### [Colorado Center for Precision Medicine (CCPM) Biobank](https://medschool.cuanschutz.edu/cobiobank)
+Chris Gignoux, Nick Rafaels, Jonathan Shortt, Sameer Chavan, Meng Lin, Kristy Crooks, Katie Marker.
+
+#### [The Danish collaboration on Rare-Variants (DanRaV)](https://ikm.ku.dk)
+Mette Nyegaard, Thomas Folkmann Hansen, Henriette Svarre, Palle Rohde, Lisette Kogelman, Tanya Techlo, Mona Ameri Chalmer.
+
+#### [deCODE](https://www.decode.com/)
+Kári Stefánsson, Unnur þorsteinsdóttir.
+
+#### [Estonian Biobank](https://genomics.ut.ee/en/content/estonian-biobank)
+Lili Milani, Reedik Mägi.
+
+#### [Genes and Health](https://www.genesandhealth.org/)
+David van Heel, Hilary Martin, Sarah Finer, Qinqin Huang.
+
+#### [Genomics England](https://www.genomicsengland.co.uk/)
+Matthew Brown, Richard Scott, Augusto Rendon, Loukas Moutsianas, Dalio Kasperavicuite, Thanos Kousathanas.
+
+#### [Mass General Brigham Biobank (MGBB)](https://biobank.massgeneralbrigham.org/)
+Pradeep Natarajan, Satoshi Koyama, Kaavya Paruchuri, Thomas Gilliland, Zhi Yu, Buu Truong, Gina Peloso, Margaret Selvaraj.
+
+#### [Mexico City Prospective Study](https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico)
+Jonathan Emberson, Jason Torres.
+
+#### [Million Women's Study](http://www.millionwomenstudy.org/introduction/)
+David Hunter, Jennifer Collister.
+
+#### [Qatar Genome](https://www.qatargenome.org.qa/)
+Said Ismail, Hamdi Mbarek, Chadi Saad.
+
+#### [UK Biobank](https://www.ukbiobank.ac.uk/)
+Rory Collins, Mark Effingham, Naomi Allen, Cecilia Lindgren, Ben Neale, Duncan Palmer.
+
+</div>

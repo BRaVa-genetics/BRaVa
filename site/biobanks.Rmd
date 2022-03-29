@@ -1,0 +1,43 @@
+---
+title: 'Participating Biobanks'
+output: 
+  html_document:
+    theme: united
+    highlight: tango
+    css: "my-style.css"
+---
+
+BRaVa has 14 biobanks/cohorts to date! To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com).
+
+<br>
+
+<div class="well">
+
+#### [The Avon Longitudial Study of Parents and Children (ALSPAC)](http://www.bristol.ac.uk/alspac/)
+
+#### [BioMe](https://icahn.mssm.edu/research/ipm/programs/biome-biobank)
+
+#### [China Kadoorie Biobank (CKB)](https://www.ckbiobank.org/site/)
+
+#### [Colorado Center for Precision Medicine (CCPM) Biobank](https://medschool.cuanschutz.edu/cobiobank)
+
+#### [The Danish collaboration on Rare-Variants (DanRaV)](https://ikm.ku.dk)
+
+#### [deCODE](https://www.decode.com/)
+
+#### [Estonian Biobank](https://genomics.ut.ee/en/content/estonian-biobank)
+
+#### [Genes and Health](https://www.genesandhealth.org/)
+
+#### [Genomics England](https://www.genomicsengland.co.uk/)
+
+#### [Mass General Brigham Biobank (MGBB)](https://biobank.massgeneralbrigham.org/)
+
+#### [Mexico City Prospective Study](https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico)
+
+#### [Million Women's Study](http://www.millionwomenstudy.org/introduction/)
+
+#### [Qatar Genome](https://www.qatargenome.org.qa/)
+
+#### [UK Biobank](https://www.ukbiobank.ac.uk/)
+</div>
