@@ -15,7 +15,7 @@ navbar:
       href: events.html
   right:
     - icon: fa-github
-      href: https://github.com/astheeggeggs/BRaVa
+      href: https://github.com/BRaVa-genetics/BRaVa
     - icon: fa-twitter
       href: https://twitter.com/BRaVa_genetics
 output:

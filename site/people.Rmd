@@ -7,7 +7,7 @@ output:
     css: "my-style.css"
 ---
 
-BRaVa has 14 biobanks/cohorts to date! 
+BRaVa has 13 biobanks/cohorts to date! 
 
 __To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com).__
 
@@ -46,9 +46,6 @@ Matthew Brown, Richard Scott, Augusto Rendon, Loukas Moutsianas, Dalio Kasperavi
 
 #### [Mass General Brigham Biobank (MGBB)](https://biobank.massgeneralbrigham.org/)
 Pradeep Natarajan, Satoshi Koyama, Kaavya Paruchuri, Thomas Gilliland, Zhi Yu, Buu Truong, Gina Peloso, Margaret Selvaraj.
-
-#### [Mexico City Prospective Study](https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico)
-Jonathan Emberson, Jason Torres.
 
 #### [Million Women's Study](http://www.millionwomenstudy.org/introduction/)
 David Hunter, Jennifer Collister.
