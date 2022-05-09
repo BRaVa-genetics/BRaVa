@@ -31,7 +31,3 @@ knitr::include_graphics("BRaVa.svg")
 </div>
 
 </div>
-<br>
-<center>
-### __To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com)!__
-</center>
