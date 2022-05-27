@@ -7,7 +7,7 @@ output:
     css: "my-style.css"
 ---
 
-BRaVa has 13 biobanks/cohorts to date! 
+BRaVa has 15 biobanks/cohorts to date! 
 
 __To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com).__
 
@@ -20,6 +20,9 @@ It takes a village, or, a small city! Here are the lead PIs, analysts, bioinform
 #### [The Avon Longitudial Study of Parents and Children (ALSPAC)](http://www.bristol.ac.uk/alspac/)
 Nic Timpson, Kate Northstone
 
+#### [BioBank Japan (BBJ)](https://biobankjp.org/en/)
+Yukinori Okada, Masahiro Kanai, Kyuto Sonehata, Shinichi Namba, Tastsuhiko Naito.
+
 #### [BioMe](https://icahn.mssm.edu/research/ipm/programs/biome-biobank)
 Ron Do, Judy Cho, Eimear Kenny, Ernest Turro, Yuval Itan, Ruth Loos.
 
@@ -30,7 +33,7 @@ Zhengming Chen, Liming Li, Iona Millwood, Zammy Fairhurst-Hunter, Alfred Pozaric
 Chris Gignoux, Nick Rafaels, Jonathan Shortt, Sameer Chavan, Meng Lin, Kristy Crooks, Katie Marker.
 
 #### [The Danish collaboration on Rare-Variants (DanRaV)](https://ikm.ku.dk)
-Mette Nyegaard, Thomas Folkmann Hansen, Henriette Svarre, Palle Rohde, Lisette Kogelman, Tanya Techlo, Mona Ameri Chalmer.
+Mette Nyegaard, Thomas Folkmann Hansen, Henriette Svarre, Palle Rohde, Lisette Kogelman, Tanya Techlo, Mona Ameri Chalmer, Tugce Karaderi.
 
 #### [deCODE](https://www.decode.com/)
 Kári Stefánsson, Unnur þorsteinsdóttir.
@@ -49,6 +52,9 @@ Pradeep Natarajan, Satoshi Koyama, Kaavya Paruchuri, Thomas Gilliland, Zhi Yu, B
 
 #### [Million Women's Study](http://www.millionwomenstudy.org/introduction/)
 David Hunter, Jennifer Collister.
+
+#### [Penn Medicine BioBank](https://pmbb.med.upenn.edu/)
+Anurag Verma, Daniel Rader,  Marylyn Ritchie, Shefali Verma, Scott Damrauer, Michael Levin, Giorgio Sirugo.
 
 #### [Qatar Genome](https://www.qatargenome.org.qa/)
 Said Ismail, Hamdi Mbarek, Chadi Saad.

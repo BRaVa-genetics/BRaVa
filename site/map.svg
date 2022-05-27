@@ -32,9 +32,9 @@
      fit-margin-left="5"
      fit-margin-right="5"
      fit-margin-bottom="5"
-     inkscape:zoom="0.51459275"
-     inkscape:cx="-399.11826"
-     inkscape:cy="421.65601"
+     inkscape:zoom="1.0291855"
+     inkscape:cx="222.73271"
+     inkscape:cy="149.59621"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -501,7 +501,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -4412,59 +4412,6 @@
      transform="matrix(0.2645828,0,0,0.2645828,-37.705122,-13.78675)"
      id="g4062" />
   <g
-     id="g4064"
-     transform="matrix(6.9444304e-4,0,0,6.9444304e-4,-37.705122,-13.78675)">
-    <g
-       id="g4066">
-      <path
-         inkscape:connector-curvature="0"
-         id="path4068"
-         style="fill:#b3c6e7;fill-opacity:1;fill-rule:evenodd;stroke:none"
-         d="m 118671.29,68876.38 v 0 c 0,-5474.247 4437.75,-9912 9912,-9912 h 24539.99 v 0 c 2628.83,0 5149.99,1044.296 7008.84,2903.16 1858.86,1858.86 2903.16,4380.015 2903.16,7008.84 v 0 0 c 0,5474.245 -4437.75,9912 -9912,9912 h -24539.99 c -5474.25,0 -9912,-4437.755 -9912,-9912 z" />
-    </g>
-  </g>
-  <g
-     transform="matrix(0.2645828,0,0,0.2645828,-37.705122,-13.78675)"
-     id="g4070">
-    <g
-       transform="translate(319.09296,162.38191)"
-       id="g4072">
-      <g
-         id="g4074">
-        <text
-           id="text4078"
-           style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="translate(17.257946,7.9159956)">
-          <tspan
-             id="tspan4076"
-             sodipodi:role="line"
-             y="0"
-             x="0 9.9960003 16.667999 23.34 26.664 33.335999 40.655998 43.98 52.644001 55.967999 59.964001 66.636002">Mexico City</tspan>
-        </text>
-        <text
-           id="text4082"
-           style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="translate(16.584118,21.915997)">
-          <tspan
-             id="tspan4080"
-             sodipodi:role="line"
-             y="0"
-             x="0 7.9920001 12.66 19.98 26.652 33.972 40.644001 47.316002 51.312 54.636002 61.307999 67.980003">Prospective</tspan>
-        </text>
-        <text
-           id="text4086"
-           style="font-variant:normal;font-weight:bold;font-size:12px;font-family:Arial;-inkscape-font-specification:Arial-BoldMT;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="translate(33.933727,35.915997)">
-          <tspan
-             id="tspan4084"
-             sodipodi:role="line"
-             y="0"
-             x="0 7.9920001 11.988 19.308001 26.628">Study</tspan>
-        </text>
-      </g>
-    </g>
-  </g>
-  <g
      transform="matrix(0.2645828,0,0,0.2645828,-37.705122,-13.78675)"
      id="g4088" />
   <g
@@ -5404,26 +5351,6 @@
        id="path4554"
        style="fill:none;stroke:#2f5496;stroke-width:381;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
        d="m 169637.08,92412.58 c 0,-19842 10194,-39684.006 20388,-39684.006" />
-  </g>
-  <g
-     id="g4556"
-     transform="matrix(6.9444304e-4,0,0,6.9444304e-4,-37.705122,-13.78675)">
-    <g
-       id="g4558">
-      <g
-         id="g4560">
-        <path
-           inkscape:connector-curvature="0"
-           id="path4562"
-           style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke:none"
-           d="m 140853.28,78788.38 c 0,7878 -5208,11817 -10415.99,15756 -5208,3939 -10416,7878 -10416,15756" />
-      </g>
-    </g>
-    <path
-       inkscape:connector-curvature="0"
-       id="path4564"
-       style="fill:none;stroke:#2f5496;stroke-width:381;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-       d="m 140853.28,78788.38 c 0,7878 -5208,11817 -10415.99,15756 -5208,3939 -10416,7878 -10416,15756" />
   </g>
   <g
      id="g4566"
