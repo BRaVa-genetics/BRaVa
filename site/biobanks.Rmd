@@ -7,11 +7,13 @@ output:
     css: "my-style.css"
 ---
 
-BRaVa has 13 biobanks/cohorts to date! To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com).
+BRaVa has 16 biobanks/cohorts to date! To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com).
 
 <br>
 
 <div class="well">
+
+#### [All of Us](https://allofus.nih.gov/)
 
 #### [The Avon Longitudial Study of Parents and Children (ALSPAC)](http://www.bristol.ac.uk/alspac/)
 
@@ -35,11 +37,11 @@ BRaVa has 13 biobanks/cohorts to date! To join the collaboration, please [contac
 
 #### [Mass General Brigham Biobank (MGBB)](https://biobank.massgeneralbrigham.org/)
 
-#### [Million Women's Study](http://www.millionwomenstudy.org/introduction/)
-
 #### [Penn Medicine BioBank](https://pmbb.med.upenn.edu/)
 
 #### [Qatar Genome](https://www.qatargenome.org.qa/)
 
 #### [UK Biobank](https://www.ukbiobank.ac.uk/)
+
+#### [VIKING Genes](https://www.ed.ac.uk/viking)
 </div>

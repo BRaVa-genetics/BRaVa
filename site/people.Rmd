@@ -7,7 +7,7 @@ output:
     css: "my-style.css"
 ---
 
-BRaVa has 15 biobanks/cohorts to date! 
+BRaVa has 16 biobanks/cohorts to date! 
 
 __To join the collaboration, please [contact us](mailto:bravaconsortium@gmail.com).__
 
@@ -17,8 +17,11 @@ It takes a village, or, a small city! Here are the lead PIs, analysts, bioinform
 
 <div class="well">
 
+#### [All of Us](https://allofus.nih.gov/)
+Buu Truong, Kyle Satterstrom, Konrad Karczewski, Wenhan Lu
+
 #### [The Avon Longitudial Study of Parents and Children (ALSPAC)](http://www.bristol.ac.uk/alspac/)
-Nic Timpson, Kate Northstone
+Nic Timpson, Kate Northstone, Simon Haworth.
 
 #### [BioBank Japan (BBJ)](https://biobankjp.org/en/)
 Yukinori Okada, Masahiro Kanai, Kyuto Sonehata, Shinichi Namba, Tastsuhiko Naito.
@@ -50,9 +53,6 @@ Matthew Brown, Richard Scott, Augusto Rendon, Loukas Moutsianas, Dalio Kasperavi
 #### [Mass General Brigham Biobank (MGBB)](https://biobank.massgeneralbrigham.org/)
 Pradeep Natarajan, Satoshi Koyama, Kaavya Paruchuri, Thomas Gilliland, Zhi Yu, Buu Truong, Gina Peloso, Margaret Selvaraj.
 
-#### [Million Women's Study](http://www.millionwomenstudy.org/introduction/)
-David Hunter, Jennifer Collister.
-
 #### [Penn Medicine BioBank](https://pmbb.med.upenn.edu/)
 Anurag Verma, Daniel Rader,  Marylyn Ritchie, Shefali Verma, Scott Damrauer, Michael Levin, Giorgio Sirugo.
 
@@ -61,5 +61,8 @@ Said Ismail, Hamdi Mbarek, Chadi Saad.
 
 #### [UK Biobank](https://www.ukbiobank.ac.uk/)
 Rory Collins, Mark Effingham, Naomi Allen, Cecilia Lindgren, Ben Neale, Duncan Palmer.
+
+### [VIKING Genes](https://www.ed.ac.uk/viking)
+Jim Wilson
 
 </div>

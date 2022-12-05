@@ -11,12 +11,12 @@ output:
 
 ### Conference calls
 #### Plenary calls
-We hold conference calls every six weeks for the entire team.
+We hold conference calls every eight weeks or so for the entire team.
 
 Please [contact us](mailto:bravaconsortium@gmail.com) to be added to the mailing list.
 
 #### Analysis calls
-We hold conference calls for the analysis team every other week.
+We hold conference calls for the analysis team monthly.
 
 #### Methods calls
 We hold conference calls for the methods team monthly. 
