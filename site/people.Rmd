@@ -62,7 +62,7 @@ Said Ismail, Hamdi Mbarek, Chadi Saad.
 #### [UK Biobank](https://www.ukbiobank.ac.uk/)
 Rory Collins, Mark Effingham, Naomi Allen, Cecilia Lindgren, Ben Neale, Duncan Palmer.
 
-### [VIKING Genes](https://www.ed.ac.uk/viking)
+#### [VIKING Genes](https://www.ed.ac.uk/viking)
 Jim Wilson
 
 </div>
