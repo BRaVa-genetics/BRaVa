@@ -23,7 +23,7 @@ BRaVa has 16 biobanks/cohorts to date! To join the collaboration, please [contac
 
 #### [China Kadoorie Biobank (CKB)](https://www.ckbiobank.org/site/)
 
-#### [Colorado Center for Precision Medicine (CCPM) Biobank](https://medschool.cuanschutz.edu/cobiobank)
+#### [Colorado Center for Personalized Medicine (CCPM) Biobank](https://medschool.cuanschutz.edu/cobiobank)
 
 #### [The Danish collaboration on Rare-Variants (DanRaV)](https://ikm.ku.dk)
 
