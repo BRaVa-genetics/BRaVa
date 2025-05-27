@@ -1,5 +1,5 @@
 ---
-title: 'Working Groups'
+title: 'Leadership Team and Working Groups'
 output: 
   html_document:
     theme: united
@@ -8,12 +8,22 @@ output:
 ---
 
 <div class="well">
+#### Leadership team
+
+Duncan Palmer,
+Konrad Karczewski,
+Cecilia Lindgren,
+Ben Neale
+</div>
+
+<div class="well">
 <center>
 ```{r logo, echo=FALSE, out.width = '110%'}
 knitr::include_graphics("teams.svg")
 ```
 </center>
 <br>
+
 
 #### Organising committee
 

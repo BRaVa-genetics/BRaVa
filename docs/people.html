@@ -13,47 +13,40 @@
 
 <title>Participating Biobanks</title>
 
-<script src="site_libs/header-attrs-2.3/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-
-
-
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
 
 <link rel="stylesheet" href="my-style.css" type="text/css" />
 
@@ -64,10 +57,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -84,40 +73,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -145,7 +110,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -157,7 +122,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -167,11 +132,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -183,13 +165,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -197,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -250,7 +224,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -269,7 +243,7 @@ $(document).ready(function () {
   <a href="people.html">Participating Biobanks and People</a>
 </li>
 <li>
-  <a href="working_groups.html">Working Groups</a>
+  <a href="working_groups.html">Leadership Team and Working Groups</a>
 </li>
 <li>
   <a href="events.html">Events</a>
@@ -293,7 +267,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -303,44 +277,64 @@ $(document).ready(function () {
 
 
 <p>BRaVa has 16 biobanks/cohorts to date!</p>
-<p><strong>To join the collaboration, please <a href="mailto:bravaconsortium@gmail.com">contact us</a>.</strong></p>
-<p>It takes a village, or, a small city! Here are the lead PIs, analysts, bioinformaticians, computational biologists, and clinicians involved in accessing and analysing each biobank/cohort.</p>
+<p><strong>To join the collaboration, please <a
+href="mailto:bravaconsortium@gmail.com">contact us</a>.</strong></p>
+<p>It takes a village, or, a small city! Here are the lead PIs,
+analysts, bioinformaticians, computational biologists, and clinicians
+involved in accessing and analysing each biobank/cohort.</p>
 <p><br></p>
 <div class="well">
 <div id="all-of-us" class="section level4">
 <h4><a href="https://allofus.nih.gov/">All of Us</a></h4>
 <p>Buu Truong, Kyle Satterstrom, Konrad Karczewski, Wenhan Lu</p>
 </div>
-<div id="the-avon-longitudial-study-of-parents-and-children-alspac" class="section level4">
-<h4><a href="http://www.bristol.ac.uk/alspac/">The Avon Longitudial Study of Parents and Children (ALSPAC)</a></h4>
+<div id="the-avon-longitudial-study-of-parents-and-children-alspac"
+class="section level4">
+<h4><a href="http://www.bristol.ac.uk/alspac/">The Avon Longitudial
+Study of Parents and Children (ALSPAC)</a></h4>
 <p>Nic Timpson, Kate Northstone, Simon Haworth.</p>
 </div>
 <div id="biobank-japan-bbj" class="section level4">
 <h4><a href="https://biobankjp.org/en/">BioBank Japan (BBJ)</a></h4>
-<p>Yukinori Okada, Masahiro Kanai, Kyuto Sonehata, Shinichi Namba, Tastsuhiko Naito.</p>
+<p>Yukinori Okada, Masahiro Kanai, Kyuto Sonehata, Shinichi Namba,
+Tastsuhiko Naito.</p>
 </div>
 <div id="biome" class="section level4">
-<h4><a href="https://icahn.mssm.edu/research/ipm/programs/biome-biobank">BioMe</a></h4>
-<p>Ron Do, Judy Cho, Eimear Kenny, Ernest Turro, Yuval Itan, Ruth Loos.</p>
+<h4><a
+href="https://icahn.mssm.edu/research/ipm/programs/biome-biobank">BioMe</a></h4>
+<p>Ron Do, Judy Cho, Eimear Kenny, Ernest Turro, Yuval Itan, Ruth
+Loos.</p>
 </div>
 <div id="china-kadoorie-biobank-ckb" class="section level4">
-<h4><a href="https://www.ckbiobank.org/site/">China Kadoorie Biobank (CKB)</a></h4>
-<p>Zhengming Chen, Liming Li, Iona Millwood, Zammy Fairhurst-Hunter, Alfred Pozarickij, Kuang Lin, Michael Holmes, Robert Clarke, Robin Walters.</p>
+<h4><a href="https://www.ckbiobank.org/site/">China Kadoorie Biobank
+(CKB)</a></h4>
+<p>Zhengming Chen, Liming Li, Iona Millwood, Zammy Fairhurst-Hunter,
+Alfred Pozarickij, Kuang Lin, Michael Holmes, Robert Clarke, Robin
+Walters.</p>
 </div>
-<div id="colorado-center-for-precision-medicine-ccpm-biobank" class="section level4">
-<h4><a href="https://medschool.cuanschutz.edu/cobiobank">Colorado Center for Precision Medicine (CCPM) Biobank</a></h4>
-<p>Chris Gignoux, Nick Rafaels, Jonathan Shortt, Sameer Chavan, Meng Lin, Kristy Crooks, Katie Marker.</p>
+<div id="colorado-center-for-precision-medicine-ccpm-biobank"
+class="section level4">
+<h4><a href="https://medschool.cuanschutz.edu/cobiobank">Colorado Center
+for Precision Medicine (CCPM) Biobank</a></h4>
+<p>Chris Gignoux, Nick Rafaels, Jonathan Shortt, Sameer Chavan, Meng
+Lin, Kristy Crooks, Katie Marker.</p>
 </div>
-<div id="the-danish-collaboration-on-rare-variants-danrav" class="section level4">
-<h4><a href="https://ikm.ku.dk">The Danish collaboration on Rare-Variants (DanRaV)</a></h4>
-<p>Mette Nyegaard, Thomas Folkmann Hansen, Henriette Svarre, Palle Rohde, Lisette Kogelman, Tanya Techlo, Mona Ameri Chalmer, Tugce Karaderi.</p>
+<div id="the-danish-collaboration-on-rare-variants-danrav"
+class="section level4">
+<h4><a href="https://ikm.ku.dk">The Danish collaboration on
+Rare-Variants (DanRaV)</a></h4>
+<p>Mette Nyegaard, Thomas Folkmann Hansen, Henriette Svarre, Palle
+Rohde, Lisette Kogelman, Tanya Techlo, Mona Ameri Chalmer, Tugce
+Karaderi.</p>
 </div>
 <div id="decode" class="section level4">
 <h4><a href="https://www.decode.com/">deCODE</a></h4>
 <p>Kári Stefánsson, Unnur þorsteinsdóttir.</p>
 </div>
 <div id="estonian-biobank" class="section level4">
-<h4><a href="https://genomics.ut.ee/en/content/estonian-biobank">Estonian Biobank</a></h4>
+<h4><a
+href="https://genomics.ut.ee/en/content/estonian-biobank">Estonian
+Biobank</a></h4>
 <p>Lili Milani, Reedik Mägi.</p>
 </div>
 <div id="genes-and-health" class="section level4">
@@ -348,16 +342,21 @@ $(document).ready(function () {
 <p>David van Heel, Hilary Martin, Sarah Finer, Qinqin Huang.</p>
 </div>
 <div id="genomics-england" class="section level4">
-<h4><a href="https://www.genomicsengland.co.uk/">Genomics England</a></h4>
-<p>Matthew Brown, Richard Scott, Augusto Rendon, Loukas Moutsianas, Dalio Kasperavicuite, Thanos Kousathanas.</p>
+<h4><a href="https://www.genomicsengland.co.uk/">Genomics
+England</a></h4>
+<p>Matthew Brown, Richard Scott, Augusto Rendon, Loukas Moutsianas,
+Dalio Kasperavicuite, Thanos Kousathanas.</p>
 </div>
 <div id="mass-general-brigham-biobank-mgbb" class="section level4">
-<h4><a href="https://biobank.massgeneralbrigham.org/">Mass General Brigham Biobank (MGBB)</a></h4>
-<p>Pradeep Natarajan, Satoshi Koyama, Kaavya Paruchuri, Thomas Gilliland, Zhi Yu, Buu Truong, Gina Peloso, Margaret Selvaraj.</p>
+<h4><a href="https://biobank.massgeneralbrigham.org/">Mass General
+Brigham Biobank (MGBB)</a></h4>
+<p>Pradeep Natarajan, Satoshi Koyama, Kaavya Paruchuri, Thomas
+Gilliland, Zhi Yu, Buu Truong, Gina Peloso, Margaret Selvaraj.</p>
 </div>
 <div id="penn-medicine-biobank" class="section level4">
 <h4><a href="https://pmbb.med.upenn.edu/">Penn Medicine BioBank</a></h4>
-<p>Anurag Verma, Daniel Rader, Marylyn Ritchie, Shefali Verma, Scott Damrauer, Michael Levin, Giorgio Sirugo.</p>
+<p>Anurag Verma, Daniel Rader, Marylyn Ritchie, Shefali Verma, Scott
+Damrauer, Michael Levin, Giorgio Sirugo.</p>
 </div>
 <div id="qatar-genome" class="section level4">
 <h4><a href="https://www.qatargenome.org.qa/">Qatar Genome</a></h4>
@@ -365,7 +364,8 @@ $(document).ready(function () {
 </div>
 <div id="uk-biobank" class="section level4">
 <h4><a href="https://www.ukbiobank.ac.uk/">UK Biobank</a></h4>
-<p>Rory Collins, Mark Effingham, Naomi Allen, Cecilia Lindgren, Ben Neale, Duncan Palmer.</p>
+<p>Rory Collins, Mark Effingham, Naomi Allen, Cecilia Lindgren, Ben
+Neale, Duncan Palmer.</p>
 </div>
 <div id="viking-genes" class="section level4">
 <h4><a href="https://www.ed.ac.uk/viking">VIKING Genes</a></h4>
@@ -382,7 +382,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -400,7 +400,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

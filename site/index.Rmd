@@ -21,7 +21,7 @@ knitr::include_graphics("BRaVa.svg")
 
 <div class="well">
 
-#### Formed in February 2022, The __Biobank Rare Variant Analysis (BRaVa) consortium__ is a collaborative effort between __16 biobanks and cohorts__ from across the globe.
+#### Formed in February 2022, The __Biobank Rare Variant Analysis (BRaVa) consortium__ is a collaborative effort between __16 biobanks and cohorts__ from across the globe to analyse rare genetic variation.
 <br>
 
 <div style="text-align: center;">
