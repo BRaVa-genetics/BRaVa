@@ -32,7 +32,7 @@ Ron Do, Judy Cho, Eimear Kenny, Ernest Turro, Yuval Itan, Ruth Loos.
 #### [China Kadoorie Biobank (CKB)](https://www.ckbiobank.org/site/)
 Zhengming Chen, Liming Li, Iona Millwood, Zammy Fairhurst-Hunter, Alfred Pozarickij, Kuang Lin, Michael Holmes, Robert Clarke, Robin Walters.
 
-#### [Colorado Center for Precision Medicine (CCPM) Biobank](https://medschool.cuanschutz.edu/cobiobank)
+#### [Colorado Center for Personalized Medicine (CCPM) Biobank](https://medschool.cuanschutz.edu/cobiobank)
 Chris Gignoux, Nick Rafaels, Jonathan Shortt, Sameer Chavan, Meng Lin, Kristy Crooks, Katie Marker.
 
 #### [The Danish collaboration on Rare-Variants (DanRaV)](https://ikm.ku.dk)
